@@ -1,0 +1,50 @@
+code .
+git status
+git diff
+git add .
+git commit -m 'create save_file function and import it in app.py.'
+git status
+git push origin
+git status
+git diff
+git add .
+git commit -m 'Given that no qualifying loans exist, when prompting a user to save a file, then the program should notify the user and exit.'
+git status
+git add .
+git commit -m 'Given that I have a list of qualifying loans, when I’m prompted to save the results, then I should be able to opt out of saving the file.'
+git push origin
+git status
+git add .
+git commit -m 'Given that I have a list of qualifying loans, when I choose to save the loans, the tool should prompt for a file path to save the file.'
+git status
+git push origin
+s
+ls
+python app.py
+python app.py
+ls
+python app.py
+python app.py
+python app.py
+python app.py
+python app.py
+git status
+git clean -f hello.csv
+git status
+git add .
+git commit -m 'saving csv'
+git status
+git push origin
+pip install pipreqs
+ls
+pipreqs > requirements.txt
+pipreqs > requirements.txt --force
+git status
+git add .
+git commit -m 'README.md'
+git status
+git push origin
+history 50 > terminal_history.txt
+history 50
+history 5
+fc -ln -50
