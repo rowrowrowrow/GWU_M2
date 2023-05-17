@@ -1,6 +1,6 @@
 # Loan Qualifier
 
-This application will match a loan candidate to a bank by providing some data on the candidate.
+This application will match a loan candidate to a bank by providing some data on the candidate and banks.
 
 ---
 
@@ -20,7 +20,13 @@ pip install -r requirements.txt
 
 ## Usage
 
-The application is an interactive CLI. Enter values following the prompts. E.g.:
+The application is an interactive CLI. Run:
+
+```
+python app.py
+```
+
+Then, enter values following the prompts. E.g.:
 
 ![Example CLI](cli.png?raw=true)
 
