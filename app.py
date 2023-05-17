@@ -110,7 +110,9 @@ def save_qualifying_loans(qualifying_loans):
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
     # YOUR CODE HERE!
-
+    if len(qualifying_loans) == 0:
+        print(f"There are no loans that match the provided criteria")
+        return
 
 def run():
     """The main function for running the script."""
